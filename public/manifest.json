@@ -1,0 +1,10 @@
+{
+  "name": "Sonny Dispatch",
+  "short_name": "Dispatch",
+  "description": "A cyberpunk journal with two haunted AI companions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#081018",
+  "theme_color": "#31e7ff",
+  "icons": []
+}
