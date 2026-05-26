@@ -36,7 +36,7 @@ type Entry = {
 export default function Home() {
   const [companion, setCompanion] = useState<Companion>('unit7')
   const [entry, setEntry] = useState('')
-  const [reply, setReply] = useState(companions.unit7.intro)
+  const [reply, setReply] = useState<string>(companions.unit7.intro)
   const [logs, setLogs] = useState<Entry[]>([])
   const [loading, setLoading] = useState(false)
   const [liked, setLiked] = useState(false)
